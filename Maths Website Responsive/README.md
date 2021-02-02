@@ -6,4 +6,4 @@ Web matematika responsive
 <div align="center">
  <img src="https://user-images.githubusercontent.com/50267676/106656413-3e214180-65cd-11eb-8d51-90a2a4d0242f.png" alt="Responsive View">
 </div>
-![image](https://user-images.githubusercontent.com/50267676/106656413-3e214180-65cd-11eb-8d51-90a2a4d0242f.png)
+
