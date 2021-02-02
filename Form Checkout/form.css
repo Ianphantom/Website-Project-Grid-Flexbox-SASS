@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+*{
+    box-sizing: border-box;
+}
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Slabo 27px', serif;
+    background: #C7BAA9;
+}
+
+.wrap{
+    width: 70%;
+    margin: auto auto;
+    margin-top: 75px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #bfab92;
+    background: #e5e6e0;
+}
+input, textarea, select{
+    background-color: #Fcf7f4;
+    border-radius: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    color: #182c2b;
+}
+
+.details{
+    flex: 3;
+}
+
+.address .form-group{
+    display: flex;
+    margin: 1em;
+}
+.address .form-group label{
+    flex: 1;
+    margin-right: 1em;
+}
+.address .form-group input{
+    flex: 3;
+    font-size: 0.7em;
+    padding: 0.5em;
+    border: none;
+}
+
+.shipping{
+    text-align: center;
+}
+.shipping select{
+    font-size: 0,7em;
+    padding: 0.5em;
+    margin-top: 0.5em;
+}
+
+.payment{
+    text-align: center;
+    margin-top: 1em;
+}
+.payment div:nth-child(2){
+    display: flex;
+}
+.payment div:nth-child(2) label{
+    flex: 1;
+    margin-top: 0.5em;
+    margin-right: 3px;
+}
+.payment div:nth-child(2) label{
+    flex: 1;
+    margin-top: 0.5em;
+}
+
+.checks{
+    display: flex;
+    text-align:  center;
+    margin-top: 1em;
+}
+.checks label{
+    flex: 1;
+    border: none;
+}
+.checks label:nth-child(2){
+    order: -1;
+}
+
+.comments{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+.comments textarea{
+    flex: 1;
+    border: none;
+}
+.submit{
+    text-align: center;
+}
+.submit button{
+    background-color: #577567;
+    width: 100%;
+    color: azure;
+    font-size: 1.2em;
+    padding: 0.5em;
+    border: none;
+    border-radius: 10px;
+}
